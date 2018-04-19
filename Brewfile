@@ -43,6 +43,7 @@ cask 'ccleaner'
 cask 'imageoptim'
 cask 'coconutbattery'
 cask 'disk-inventory-x'
+cask '1password'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
 cask 'qlstephen'
