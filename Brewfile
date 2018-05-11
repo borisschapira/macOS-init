@@ -93,6 +93,7 @@ brew 'python3'
 # cask 'virtualbox-extension-pack'
 
 brew 'nvm'
+brew 'yarn', args: ['without-node']
 
 cask 'visual-studio-code'
 cask 'font-fira-code'
