@@ -43,7 +43,7 @@ cask 'ccleaner'
 cask 'imageoptim'
 cask 'coconutbattery'
 cask 'disk-inventory-x'
-cask '1password'
+# cask '1password'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
 cask 'qlstephen'
@@ -64,6 +64,7 @@ cask 'rocket'
 brew 'mackup'
 # cask 'carbon-copy-cloner'
 cask 'google-backup-and-sync'
+cask 'dropbox'
 
 # Navigateurs
 cask 'firefox'
@@ -123,18 +124,23 @@ cask 'vlc'
 mas 'filebot', id: 905384638
 # cask 'calibre'
 
+# Screen video capture
+cask 'kap'
+# Black out parts of images
+mas 'black-out', id: 1319884285
+
 # Communication
 # cask 'rambox'
 cask 'slack'
-cask 'hipchat'
 cask 'skype'
 mas 'trello', id: 1278508951
 
 # Bureautique
+cask 'thunderbird-beta'
 cask 'libreoffice'
 brew 'pandoc'
 cask 'flux'
-cask 'poedit'
+# cask 'poedit'
 cask 'font-microsoft-office'
 
 # Divertissement
