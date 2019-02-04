@@ -6,7 +6,6 @@ brew update
 brew outdated
 brew upgrade
 brew doctor
-brew prune
 
 # Update Mac App Store apps
 mas upgrade

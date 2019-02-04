@@ -19,6 +19,7 @@ cask_args appdir: '/Applications'
 brew 'mas'
 
 # Outils système et réseau
+cask 'appcleaner'
 brew 'openssh'
 brew 'gcc'
 brew 'ssh-copy-id'
@@ -27,10 +28,11 @@ brew 'rsync'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-brew 'stormssh'
+# brew 'stormssh'
 # cask 'tunnelblick'
 cask 'postman'
-cask 'ngrok'
+# cask 'ngrok'
+cask 'timemachineeditor'
 
 # Outils pour le terminal
 cask 'iterm2'
@@ -59,6 +61,7 @@ cask 'the-unarchiver'
 cask 'android-file-transfer'
 cask 'rocket'
 # cask 'github-desktop'
+cask 'meld'
 
 # Outils de backup et synchro
 brew 'mackup'
@@ -71,6 +74,7 @@ cask 'firefox'
 cask 'FirefoxDeveloperEdition'
 cask 'google-chrome'
 cask 'google-chrome-canary'
+cask 'safari-technology-preview'
 # brew 'lynx'
 # cask 'brave'
 # cask 'vivaldi'
@@ -78,6 +82,7 @@ cask 'google-chrome-canary'
 # Outils de développement
 brew 'git'
 cask 'java'
+cask 'java6'
 brew 'pkg-config'
 brew 'ruby'
 brew 'python3'
@@ -125,15 +130,15 @@ mas 'filebot', id: 905384638
 # cask 'calibre'
 
 # Screen video capture
-cask 'kap'
+cask 'kap-beta'
 # Black out parts of images
-mas 'black-out', id: 1319884285
+# mas 'black-out', id: 1319884285
 
 # Communication
 # cask 'rambox'
 cask 'slack'
-cask 'skype'
-mas 'trello', id: 1278508951
+# cask 'skype'
+# mas 'trello', id: 1278508951
 
 # Bureautique
 cask 'thunderbird-beta'
