@@ -57,11 +57,7 @@ echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
 npm install -g tldr
 npm install -g http-serve
-
-echo "Finalisation de l'installation de PHP"
-echo 'export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"' >> ~/.zshrc
-brew services start homebrew/php/php71
-brew services start homebrew/apache/httpd24
+npm install -g yarn
 
 ## ************************* CONFIGURATION ********************************
 echo "Configuration de quelques paramètres par défaut"
@@ -187,6 +183,9 @@ sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking 
 sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 ## APPS
+
+# Ne pas afficher les applications récentes dans Dock
+defaults write com.apple.dock show-recents -bool false
 
 # Vérifier la disponibilité de mise à jour quotidiennement
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1

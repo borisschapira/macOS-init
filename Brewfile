@@ -6,7 +6,6 @@
 tap 'homebrew/dupes'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/homebrew-php'
 tap 'caskroom/drivers'
