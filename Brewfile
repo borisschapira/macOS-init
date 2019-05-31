@@ -121,6 +121,7 @@ brew 'webp'
 
 # Multimédia
 brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
+brew 'youtube-dl'
 # cask 'handbrake'
 mas 'giski', id: 1351639930
 cask 'spotify'
