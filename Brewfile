@@ -147,6 +147,7 @@ brew 'pandoc'
 cask 'flux'
 # cask 'poedit'
 cask 'font-microsoft-office'
+mas 'trello-organize-anything', id: 1278508951
 
 # Divertissement
 
