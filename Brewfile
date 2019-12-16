@@ -103,10 +103,14 @@ brew 'nvm'
 brew 'yarn', args: ['without-node']
 
 cask 'visual-studio-code'
-cask 'font-fira-code'
-
 cask 'sequel-pro'
 # mas 'Xcode', id: 497799835
+
+# Fonts
+cask 'font-fira-code'
+cask 'font-libre-baskerville'
+cask 'font-microsoft-office'
+cask 'font-open-sans'
 
 # Static generators
 brew 'hugo'
@@ -120,6 +124,7 @@ mas 'Boxy SVG', id: 611658502
 cask 'imageoptim'
 brew 'jhead'
 brew 'webp'
+cask 'gimp'
 
 # Multimédia
 brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
