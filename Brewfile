@@ -64,6 +64,7 @@ cask 'meld'
 
 # Outils de backup et synchro
 brew 'mackup'
+cask 'timemachineeditor'
 # cask 'carbon-copy-cloner'
 cask 'google-backup-and-sync'
 cask 'dropbox'
@@ -138,6 +139,7 @@ cask 'kap-beta'
 # Communication
 # cask 'rambox'
 cask 'slack'
+cask 'discord'
 # cask 'skype'
 # mas 'trello', id: 1278508951
 
