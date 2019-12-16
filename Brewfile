@@ -140,6 +140,7 @@ cask 'kap-beta'
 # cask 'rambox'
 cask 'slack'
 cask 'discord'
+casl 'mattermost'
 # cask 'skype'
 # mas 'trello', id: 1278508951
 
