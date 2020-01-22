@@ -44,6 +44,7 @@ cask 'ccleaner'
 cask 'imageoptim'
 cask 'coconutbattery'
 cask 'GrandPerspective'
+cask 'hiddenbar'
 # cask '1password'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
@@ -129,6 +130,7 @@ cask 'gimp'
 # Multimédia
 brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
 brew 'youtube-dl'
+cask 'molotov'
 # cask 'handbrake'
 mas 'giski', id: 1351639930
 cask 'spotify'
