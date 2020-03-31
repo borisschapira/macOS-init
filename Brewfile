@@ -46,6 +46,7 @@ cask 'coconutbattery'
 cask 'GrandPerspective'
 cask 'hiddenbar'
 # cask '1password'
+cask 'keyboard-cleaner'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
 cask 'qlstephen'
