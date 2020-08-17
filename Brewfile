@@ -27,10 +27,8 @@ brew 'rsync'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
-# brew 'stormssh'
-# cask 'tunnelblick'
 cask 'postman'
-# cask 'ngrok'
+cask 'ngrok'
 cask 'timemachineeditor'
 
 # Outils pour le terminal
@@ -105,7 +103,7 @@ brew 'nvm'
 brew 'yarn', args: ['without-node']
 
 cask 'visual-studio-code'
-cask 'sequel-pro'
+# cask 'sequel-pro'
 # mas 'Xcode', id: 497799835
 
 # Fonts
@@ -115,7 +113,7 @@ cask 'font-microsoft-office'
 cask 'font-open-sans'
 
 # Static generators
-brew 'hugo'
+# brew 'hugo'
 
 # Traitement d'image
 brew 'graphicsmagick'
@@ -147,8 +145,8 @@ cask 'kap-beta'
 # Communication
 # cask 'rambox'
 cask 'slack'
-cask 'discord'
-casl 'mattermost'
+# cask 'discord'
+# casl 'mattermost'
 # cask 'skype'
 # mas 'trello', id: 1278508951
 
@@ -162,6 +160,7 @@ cask 'font-microsoft-office'
 mas 'trello-organize-anything', id: 1278508951
 
 # Divertissement
+# mas 'jiffy', id: 1502527999
 
 # Securite
 brew 'gpg2'
