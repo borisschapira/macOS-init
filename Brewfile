@@ -82,6 +82,7 @@ cask 'microsoft-edge-dev'
 
 # Outils de développement
 brew 'git'
+brew 'gh'
 cask 'java'
 cask 'java6'
 brew 'pkg-config'
