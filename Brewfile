@@ -3,12 +3,10 @@
 
 # Taps
 
-tap 'homebrew/dupes'
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-drivers'
 tap 'homebrew/bundle'
-tap 'homebrew/homebrew-php'
-tap 'caskroom/drivers'
 tap 'colindean/fonts-nonfree'
 
 # Définir où placer les applications installées
@@ -71,7 +69,7 @@ cask 'dropbox'
 
 # Navigateurs
 cask 'firefox'
-cask 'FirefoxDeveloperEdition'
+cask 'firefox-developer-edition'
 cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'safari-technology-preview'
@@ -101,7 +99,6 @@ brew 'python3'
 # cask 'virtualbox-extension-pack'
 
 brew 'nvm'
-brew 'yarn', args: ['without-node']
 
 cask 'visual-studio-code'
 # cask 'sequel-pro'
@@ -109,6 +106,8 @@ cask 'visual-studio-code'
 
 # Fonts
 cask 'font-fira-code'
+cask 'font-jetbrains-mono'
+cask 'font-dejavu-sans-mono-for-powerline'
 cask 'font-libre-baskerville'
 cask 'font-microsoft-office'
 cask 'font-open-sans'
@@ -126,13 +125,14 @@ cask 'imageoptim'
 brew 'jhead'
 brew 'webp'
 cask 'gimp'
+brew 'exa'
 
 # Multimédia
-brew 'ffmpeg', args: ['with-libvorbis', 'with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
+brew 'ffmpeg', args: ['with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
 brew 'youtube-dl'
-cask 'molotov'
+# cask 'molotov'
 # cask 'handbrake'
-mas 'giski', id: 1351639930
+#mas 'giski', id: 1351639930
 cask 'spotify'
 cask 'vlc'
 mas 'filebot', id: 905384638
