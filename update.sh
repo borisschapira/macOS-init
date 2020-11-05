@@ -18,7 +18,7 @@ reset=`tput sgr0`
 
 # List all casks and for each of them,
 # test if a newer version is available.
-updateAvailable=( $(brew cask outdated --greedy --verbose | grep -v '(latest)' | cut -f1 -d" ") )
+updateAvailable=( $(brew outdated --cask --greedy --verbose | grep -v '(latest)' | cut -f1 -d" ") )
 
 echo "Scanning the casks…"
 for updateAvailable in ${updateAvailable[@]}
