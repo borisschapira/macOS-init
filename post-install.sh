@@ -187,6 +187,9 @@ sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 # Ne pas afficher les applications récentes dans Dock
 defaults write com.apple.dock show-recents -bool false
 
+# Afficher les fichiers cachés
+defaults write com.apple.finder AppleShowAllFiles YES
+
 # Vérifier la disponibilité de mise à jour quotidiennement
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
