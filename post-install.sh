@@ -29,7 +29,7 @@ echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
 brew update
 
 # Installer Dropbox au plus tôt pour lancer la synchro des settings
-brew cask install dropbox
+brew install dropbox --cask
 echo "Ouverture de Dropbox pour commencer la synchronisation"
 open -a Dropbox
 
