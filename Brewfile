@@ -98,7 +98,8 @@ brew 'python3'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 
-brew 'nvm'
+# brew 'nvm'
+brew 'volta'
 
 cask 'visual-studio-code'
 # cask 'sequel-pro'
