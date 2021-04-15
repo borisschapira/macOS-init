@@ -241,3 +241,7 @@ rm -f -r /Library/Caches/Homebrew/*
 echo ""
 echo "ET VOILÀ !"
 echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
+
+# Default global package I really like
+volta install npm-check-updates
+volta install puppeteer
