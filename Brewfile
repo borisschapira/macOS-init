@@ -8,6 +8,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-drivers'
 tap 'homebrew/bundle'
 tap 'colindean/fonts-nonfree'
+tap 'cantino/mcfly'
 
 # Définir où placer les applications installées
 cask_args appdir: '/Applications'
@@ -33,7 +34,8 @@ cask 'timemachineeditor'
 cask 'iterm2'
 brew 'autojump'
 brew 'thefuck'
-brew 'rmtrash'
+brew 'trash'
+brew 'mcfly'
 
 # Utilitaires
 cask 'ccleaner'
