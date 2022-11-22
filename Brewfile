@@ -17,95 +17,84 @@ cask_args appdir: '/Applications'
 brew 'mas'
 
 # Outils système et réseau
-cask 'appcleaner'
-brew 'openssh'
-brew 'gcc'
-brew 'ssh-copy-id'
-brew 'openssl'
-brew 'rsync'
+# cask 'appcleaner'
+# brew 'openssh'
+# brew 'gcc'
+# brew 'ssh-copy-id'
+# brew 'openssl'
+# brew 'rsync'
 brew 'wget'
 brew 'curl'
 cask 'Cyberduck'
 cask 'postman'
-cask 'ngrok'
-cask 'timemachineeditor'
+# cask 'ngrok'
+# cask 'timemachineeditor'
 
 # Outils pour le terminal
 cask 'iterm2'
 brew 'autojump'
 brew 'thefuck'
-brew 'trash'
-brew 'mcfly'
+# brew 'trash'
+# brew 'mcfly'
 
 # Utilitaires
-cask 'ccleaner'
-cask 'imageoptim'
+# cask 'ccleaner'
+# cask 'imageoptim'
 cask 'coconutbattery'
-cask 'GrandPerspective'
-cask 'hiddenbar'
+# cask 'GrandPerspective'
+# cask 'hiddenbar'
 # cask '1password'
 cask 'keyboard-cleaner'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
-cask 'qlstephen'
+# cask 'qlstephen'
 # Quicklook for webp
-cask 'webpquicklook'
+# cask 'webpquicklook'
 # Quicklook for other formats
-cask 'qlmarkdown'
-cask 'quicklook-csv'
-cask 'quicklook-json'
+# cask 'qlmarkdown'
+# cask 'quicklook-csv'
+# cask 'quicklook-json'
 
 mas 'BetterSnapTool', id: 417_375_580
-cask 'the-unarchiver'
-cask 'android-file-transfer'
+# cask 'the-unarchiver'
+# cask 'android-file-transfer'
 cask 'rocket'
 # cask 'github-desktop'
-cask 'meld'
+# cask 'meld'
 
 # Outils de backup et synchro
 brew 'mackup'
-cask 'timemachineeditor'
 # cask 'carbon-copy-cloner'
-cask 'google-backup-and-sync'
+# cask 'google-backup-and-sync'
 cask 'dropbox'
 
 # Navigateurs
-cask 'firefox'
-cask 'firefox-developer-edition'
-cask 'google-chrome'
-cask 'google-chrome-canary'
-cask 'safari-technology-preview'
-cask 'microsoft-edge-dev'
+# cask 'firefox'
+# cask 'firefox-developer-edition'
+# cask 'google-chrome'
+# cask 'google-chrome-canary'
+# cask 'safari-technology-preview'
+# cask 'microsoft-edge-dev'
 # brew 'lynx'
 # cask 'brave'
 # cask 'vivaldi'
 
 # Outils de développement
 brew 'git'
-brew 'gh'
-cask 'java'
-cask 'java6'
-brew 'pkg-config'
-brew 'ruby'
-brew 'python3'
+# brew 'gh'
+# cask 'java'
+# cask 'java6'
+# brew 'pkg-config'
+# brew 'ruby'
+# brew 'python3'
 # brew 'composer'
 # brew 'php71', args: ['with-httpd24']
 
-# cask 'docker'
-# cask 'kitematic'
-# brew 'docker-clean'
-
-# brew 'ansible'
-# cask 'vagrant'
-# cask 'virtualbox'
-# cask 'virtualbox-extension-pack'
 
 # brew 'nvm'
 brew 'volta'
 
 cask 'visual-studio-code'
-# cask 'sequel-pro'
-# mas 'Xcode', id: 497799835
 
 # Fonts
 cask 'font-fira-code'
@@ -119,52 +108,28 @@ cask 'font-open-sans'
 # brew 'hugo'
 
 # Traitement d'image
-brew 'graphicsmagick'
-brew 'gsl'
-brew 'exiftool'
-brew 'imagemagick@6'
+# brew 'graphicsmagick'
+# brew 'gsl'
+# brew 'exiftool'
+brew 'imagemagick'
 mas 'Boxy SVG', id: 611658502
-cask 'imageoptim'
 brew 'jhead'
 brew 'webp'
-cask 'gimp'
-brew 'exa'
+# cask 'gimp'
 
 # Multimédia
-brew 'ffmpeg', args: ['with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
-brew 'youtube-dl'
-# cask 'molotov'
-# cask 'handbrake'
-#mas 'giski', id: 1351639930
+# brew 'ffmpeg', args: ['with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
+brew 'ffmpeg'
+# brew 'youtube-dl'
 cask 'spotify'
 cask 'vlc'
-mas 'filebot', id: 905384638
-# cask 'calibre'
+cask 'calibre'
 
-# Screen video capture
-cask 'kap-beta'
-# Black out parts of images
-# mas 'black-out', id: 1319884285
 
 # Communication
-# cask 'rambox'
 cask 'slack'
-# cask 'discord'
-# casl 'mattermost'
-# cask 'skype'
-# mas 'trello', id: 1278508951
+
 
 # Bureautique
-cask 'thunderbird-beta'
 cask 'libreoffice'
 brew 'pandoc'
-cask 'flux'
-# cask 'poedit'
-cask 'font-microsoft-office'
-mas 'trello-organize-anything', id: 1278508951
-
-# Divertissement
-# mas 'jiffy', id: 1502527999
-
-# Securite
-brew 'gpg2'
