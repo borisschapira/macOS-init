@@ -129,6 +129,9 @@ cask 'calibre'
 # Communication
 cask 'slack'
 
+# a11y
+brew 'karabiner-elements'
+
 
 # Bureautique
 cask 'libreoffice'
