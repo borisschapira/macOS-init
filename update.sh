@@ -35,7 +35,3 @@ do
 done
 
 brew cleanup
-
-# npm update
-npm -g i npm-check
-npm-check -u -g
