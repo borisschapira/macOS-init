@@ -141,35 +141,6 @@ defaults write com.apple.dock mru-spaces -bool false
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-## COINS ACTIFS
-
-#  0: no-op
-#  2: Mission Control
-#  3: Show application windows
-#  4: Desktop
-#  5: Start screen saver
-#  6: Disable screen saver
-#  7: Dashboard
-# 10: Put display to sleep
-# 11: Launchpad
-# 12: Notification Center
-
-# En haut à gauche : bureau
-# defaults write com.apple.dock wvous-tl-corner -int 4
-# defaults write com.apple.dock wvous-tl-modifier -int 0
-
-# En haut à droite : screensaver
-defaults write com.apple.dock wvous-tr-corner -int 5
-defaults write com.apple.dock wvous-tr-modifier -int 0
-
-# En bas à gauche : fenêtres de l'application
-# defaults write com.apple.dock wvous-bl-corner -int 3
-# defaults write com.apple.dock wvous-bl-modifier -int 0
-
-# En bas à droite : Mission Control
-# defaults write com.apple.dock wvous-br-corner -int 2
-# defaults write com.apple.dock wvous-br-modifier -int 0
-
 ## CLAVIER ET TRACKPAD
 
 # Accès au clavier complet (tabulation dans les boîtes de dialogue)
@@ -177,11 +148,6 @@ sudo defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Arrêt pop-up clavier façon iOS
 sudo defaults write -g ApplePressAndHoldEnabled -bool false
-
-# Répétition touches plus rapide
-sudo defaults write NSGlobalDomain KeyRepeat -int 1
-# Délai avant répétition des touches
-sudo defaults write NSGlobalDomain InitialKeyRepeat -int 10
 
 # Trackpad : toucher pour cliquer
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -200,10 +166,6 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
 # Safari : menu développeur / URL en bas à gauche / URL complète en haut / Do Not Track / affichage barre favoris
 defaults write com.apple.safari IncludeDevelopMenu -int 1
-defaults write com.apple.safari ShowOverlayStatusBar -int 1
-defaults write com.apple.safari ShowFullURLInSmartSearchField -int 1
-defaults write com.apple.safari SendDoNotTrackHTTPHeader -int 1
-defaults write com.apple.Safari ShowFavoritesBar -bool true
 
 # Chrome : désactiver la navigation dans l'historique au swipe
 defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
@@ -248,5 +210,5 @@ echo "ET VOILÀ !"
 echo "Après synchronisation des données Dropbox (seuls les dossiers « Mackup » et « Settings » sont nécessaires dans un premier temps), lancer le script post-cloud.sh"
 
 # Default global package I really like
-volta install npm-check-updates
-volta install puppeteer
+pnpm install npm-check-updates
+pnpm install puppeteer
