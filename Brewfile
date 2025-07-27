@@ -114,6 +114,8 @@ brew 'webp'
 brew 'ffmpeg'
 brew 'yt-dlp'
 brew 'vlc'
+brew 'kid3'
+brew 'audacity'
 
 # Communication
 # brew 'slack'
