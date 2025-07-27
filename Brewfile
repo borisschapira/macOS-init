@@ -3,21 +3,14 @@
 
 # Taps
 
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-drivers'
-tap 'homebrew/bundle'
-tap 'colindean/fonts-nonfree'
-tap 'cantino/mcfly'
-
 # Définir où placer les applications installées
-cask_args appdir: '/Applications'
+# cask_args appdir: '/Applications'
 
 # Permettre l'installation d'applications de l'AppStore
 brew 'mas'
 
 # Outils système et réseau
-# cask 'appcleaner'
+# brew 'appcleaner'
 # brew 'openssh'
 # brew 'gcc'
 # brew 'ssh-copy-id'
@@ -25,13 +18,12 @@ brew 'mas'
 # brew 'rsync'
 brew 'wget'
 brew 'curl'
-cask 'Cyberduck'
-cask 'postman'
-# cask 'ngrok'
-# cask 'timemachineeditor'
+brew 'Cyberduck'
+# brew 'postman'
+# brew 'ngrok'
 
 # Outils pour le terminal
-cask 'iterm2'
+brew 'iterm2'
 brew 'autojump'
 brew 'thefuck'
 # brew 'trash'
@@ -40,11 +32,11 @@ brew 'thefuck'
 # Utilitaires
 # cask 'ccleaner'
 # cask 'imageoptim'
-cask 'coconutbattery'
+brew 'coconutbattery'
 # cask 'GrandPerspective'
 # cask 'hiddenbar'
 # cask '1password'
-cask 'keyboard-cleaner'
+brew 'keyboard-cleaner'
 
 # Quicklook For README, INSTALL, Rakefile, Makefile…
 # cask 'qlstephen'
@@ -58,7 +50,7 @@ cask 'keyboard-cleaner'
 mas 'BetterSnapTool', id: 417_375_580
 # cask 'the-unarchiver'
 # cask 'android-file-transfer'
-cask 'rocket'
+# cask 'rocket'
 # cask 'github-desktop'
 # cask 'meld'
 
@@ -66,7 +58,7 @@ cask 'rocket'
 brew 'mackup'
 # cask 'carbon-copy-cloner'
 # cask 'google-backup-and-sync'
-cask 'dropbox'
+# cask 'dropbox'
 
 # Navigateurs
 # cask 'firefox'
@@ -92,17 +84,17 @@ brew 'git'
 
 
 # brew 'nvm'
-brew 'volta'
+# brew 'volta'
 
-cask 'visual-studio-code'
+# cask 'visual-studio-code'
 
 # Fonts
-cask 'font-fira-code'
-cask 'font-jetbrains-mono'
-cask 'font-dejavu-sans-mono-for-powerline'
-cask 'font-libre-baskerville'
-cask 'font-microsoft-office'
-cask 'font-open-sans'
+# cask 'font-fira-code'
+# cask 'font-jetbrains-mono'
+# cask 'font-dejavu-sans-mono-for-powerline'
+# cask 'font-libre-baskerville'
+# cask 'font-microsoft-office'
+# cask 'font-open-sans'
 
 # Static generators
 # brew 'hugo'
@@ -112,27 +104,24 @@ cask 'font-open-sans'
 # brew 'gsl'
 # brew 'exiftool'
 brew 'imagemagick'
-mas 'Boxy SVG', id: 611658502
-brew 'jhead'
+# mas 'Boxy SVG', id: 611658502
+# brew 'jhead'
 brew 'webp'
-# cask 'gimp'
+# brew 'gimp'
 
 # Multimédia
 # brew 'ffmpeg', args: ['with-libvpx', 'with-openh264', 'with-theora', 'with-fdk-aac', 'with-opus', 'with-frei0r']
 brew 'ffmpeg'
-# brew 'youtube-dl'
-cask 'spotify'
-cask 'vlc'
-cask 'calibre'
-
+brew 'yt-dlp'
+brew 'vlc'
 
 # Communication
-cask 'slack'
+# brew 'slack'
 
 # a11y
 brew 'karabiner-elements'
 
 
 # Bureautique
-cask 'libreoffice'
+# brew 'libreoffice'
 brew 'pandoc'
