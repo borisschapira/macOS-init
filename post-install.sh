@@ -55,9 +55,8 @@ npm install -g npm
 
 echo "Installation d'applications en Node"
 # De meilleures aides en ligne : http://tldr.sh/
-npm install -g http-serve
-npm install -g npm-check-updates
-npm install -g prettier
+brew install pnpm
+pnpm install -g prettier
 
 echo "Installation d'utilitaires de terminal"
 # Installation d'utilitaires de terminal
